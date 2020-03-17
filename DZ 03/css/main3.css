@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+h2{
+    padding: 40px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #656363;
+    text-align: center;
+}
+header{
+    background: #edecec;
+    padding: 60px 125px;
+}
+header h1{
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.2em;
+}
+header p{
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0 40px 0;
+}
+header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    background: #f44c55;
+    padding: 20px 35px;
+    text-transform: uppercase;
+}
+section{
+    padding: 20px 125px;
+    border-bottom: 2px solid #f2f1f1;
+}
+img{
+    margin-bottom: 45px;
+    /*margin: auto; НЕ РАБОТАЕТ, ПОЧЕМУ?????*/
+
+}
+.pullover{
+    border: 4px solid #f7f6f6;
+    width: 270px;
+    padding: 30px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.pullover p{
+    font-size: 18px;
+    color: #717171;
+
+    margin-top: 15px;
+}
+.price{
+    font-weight: bold;
+}
+.padd{
+    display: inline-block;
+    padding: 20px 30px;
+    border: 4px solid #edecec;
+    margin-right: 100px;
+}
+.men_women, .brand{
+    color: #e4e4e4;
+    font-style: italic;
+}
+.men_women{
+    font-size: 13px;
+}
+.brand{
+    font-size: 25px;
+}
+
+article{
+    padding: 45px 125px 0px;
+}
+article h2{
+    color: #656363;
+    text-align: center;
+    padding: 0;
+    text-transform: none;
+    font-size: 25px;
+    font-weight: inherit;
+}
+article p{
+    font-size: 40px;
+    color: #f54d56;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px 0 45px;
+}
+.foot{
+    padding: 30px 0 35px;
+    border-top: 1px solid #e8e8e8;
+}
+.foot p{
+    font-size: 12px;
+    color: #717171;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.foot a{
+    text-decoration: none;
+    color: #f44c55;
+}
+.zaatrahalo{
+    text-decoration: underline;
+}
+.foot a:hover{
+    text-decoration: underline;
+}
+

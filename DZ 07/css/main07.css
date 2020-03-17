@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url("../img/Layer-7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(43, 46, 53, 0.8);
+}
+.conteiner{
+    background: #24282f;
+}
+.logo_nav{
+    max-width: 1094px;
+    margin: auto;
+    padding: 30px 0;
+}
+header nav ul li{
+    display: inline-block;
+    /*font-size: 11px;*/
+    text-transform: uppercase;
+
+    margin-left: 30px;
+}
+header nav ul li a{
+    padding: 34px 10px;
+    color: #fff;
+    font-size: 11px;
+}
+header nav ul li a:hover{
+    border-bottom: 2px solid #b5a263;
+}
+header nav{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+.apesity{
+    background-color: rgba(36, 40, 47, 0.9);
+    padding: 65px 0;
+}
+.More_About_US{
+    max-width: 1094px;
+    margin: auto;
+    color: #fff;
+}
+header h1{
+    font-size: 31px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+header p{
+    font-size: 12px;
+    max-width: 630px;
+    line-height: 1.5;
+}
+section{
+    padding: 85px 0 15px;
+}
+section h2{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+section h2:after{
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #b5a263;
+    margin: 20px auto 0;
+}
+article div{
+    max-width: 262px;
+}
+article{
+    max-width: 890px;
+    margin: auto;
+}
+article img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+article a img{
+    margin-bottom: 0;
+}
+article a{
+    float: right;
+    padding-right: 7px;
+}
+.width{
+    width: 105px;
+    display: inline-block;
+    margin-left: 8px;
+}
+article h4{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+article p{
+    font-size: 11px;
+    color: #b5a263;
+    line-height: 1.7;
+}
+.float{
+    float: left;
+    max-width: 262px;
+    margin-right: 32px;
+}
+.float img{
+    width: 100%;
+}
+
+section .center a{
+    color: #8a8c90;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 2px solid #8a8c90;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+}
+.center{
+    max-width: 890px;
+    margin: auto;
+    text-align: center;
+}
+.cent{
+    max-width: 890px;
+    margin: auto;
+}
+.fff{
+    margin-bottom: 35px;
+}
+footer{
+    background: #2b2f35;
+    padding-top: 60px;
+    border-top: 2px solid #42464c;
+}
+footer h4{
+    font-size: 11px;
+    color: #9d8e5b;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+footer p{
+    font-size: 14px;
+    color: #6b6f76;
+    line-height: 1.5;
+}
+.ABOUT_FAPOR{
+    width: 235px;
+}
+.padd{
+    margin-bottom: 10px;
+}
+footer form input{
+    width: 100%;
+    background: #2b2f35;
+    border: 2px solid #61656b;
+    font-size: 11px;
+    line-height: 3;
+    padding-left: 8px;
+}
+footer .px{
+    margin-bottom: 10px;
+}
+footer button{
+    width: 100%;
+    background: #b5a263;
+    color: #fff;
+    font-size: 11px;
+    cursor: pointer;
+    padding: 12px 0;
+    border: none;
+}
+.marg{
+    margin-left: 140px;
+}
+.bord{
+    border-top: 2px solid #42464c;
+    padding: 20px;
+    background: #24282f;
+}
+input{
+    color: #fff;
+}
+.qwe{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 5px solid #000;
+}
+.qwe:before{
+    width: 33%;
+    content: "";
+    height: 100%;
+    float: left;
+    background-color: red;
+    display: inline-block;
+    border-radius: 20px;
+}
+.qwe:after{
+    content: "";
+    background-color: green;
+    height: 100%;
+    width: 33%;
+    float: right;
+    display: inline-block;
+    border-radius: 20px;
+}
+

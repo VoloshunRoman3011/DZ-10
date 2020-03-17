@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Medium.eot');
+    src: url('../fonts/Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+    url('../fonts/Metropolis-Medium.woff') format('woff'),
+    url('../fonts/Metropolis-Medium.ttf') format('truetype'),
+    url('../fonts/Metropolis-Medium.svg#Metropolis-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.top-header{
+    padding-top: 24px;
+    background-color: rgba(21, 5, 7, 0.6);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    padding-bottom: 12px;
+    background-image: url("../img/Photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.container:after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.logo{
+    float: left;
+    margin-bottom: 10px;
+
+}
+.btn{
+    float: right;
+    width: 171px;
+    font-family: 'Metropolis';
+    line-height: 45px;
+    color: #fff;
+    background-color: #464646;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 25px;
+    border-radius: 2px;
+}
+header form{
+    width: 210px;
+    float: left;
+    margin-left: 20px;
+}
+input{
+    font-family: 'Metropolis';
+    line-height: 45px;
+    border-radius: 2px;
+    background-color: #ebebeb;
+    border: none;
+     width: 100%;
+    padding-left: 15px;
+}
+.fa-search{
+    color: #fa090a;
+}
+header i{
+    margin-right: 13px;
+}
+.btn:last-of-type{
+    background-color: #252525;
+}
+.btn:nth-child(3){
+    background-color: #fa090a;
+}
+header .container:first-of-type:after{
+    border-bottom: 2px solid #464646;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #fff;
+    margin-right: 20px;
+    padding: 20px 5px 0;
+}
+nav ul li a:after{
+    content: "";
+    display: block;
+    height: 4px;
+    background-color: #ff0000;
+    width: 0;
+    transition: 0.3s;
+    margin: 8px 0;
+}
+nav ul li:hover a:after{
+    width: 100%;
+}
+header .fab{
+    line-height: 30px;
+    width: 30px;
+    margin: 20px 0 0 15px;
+    text-align: center;
+    background-color: #fa090a;
+    float: right;
+}
+h1  {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top:70px;
+    color: #fff;
+}
+h1:after{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #ff0000;
+    max-width: 1170px;
+    margin:20px auto 0;
+}
+section{
+    height: 400px;
+}
+footer{
+    background-color: #010006;
+    padding: 75px 0 60px;
+}
+footer h3{
+    font-family: 'Metropolis';
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.btn-footer{
+    font-family: 'Metropolis';
+    line-height: 50px;
+    padding: 0 70px;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-left: 30px;
+}
+footer input{
+    width: 58%;
+    margin-top: 3px;
+}
+footer form{
+    max-width: 735px;
+    margin: 30px auto 50px;
+    vertical-align: middle;
+}
+.fot-logo{
+    width: 250px;
+    float: left;
+}
+.fot-logo img{
+    width: 100%;
+}
+footer .fab{
+    line-height: 45px;
+    width: 45px;
+    margin: 35px 0 0 19px;
+    text-align: center;
+    background-color: #fa090a;
+}
+.fot-logo a:nth-child(2){
+    margin: 0;
+}
+.fot-bar ul li{
+    color: #fff;
+    font-family: 'Metropolis';
+    font-size: 13px;
+    list-style: none;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.fot-bar{
+    float: right;
+    margin: 10px 0 0 70px;
+}
+.fot-bagraunt{
+    border-bottom: 1px solid #48474b;
+    border-top: 1px solid #48474b;
+    background-color: #252525;
+    padding: 50px 0 63px;
+}
