@@ -129,3 +129,29 @@ section h3{
 .container_2 p, .container_3 p{
     font-size: 18px;
 }
+.container_4{
+    max-width: 840px;
+    margin: 0 auto 60px;
+    display: flex;
+    align-items: flex-start;
+}
+.block_img{
+    height: 210px;
+    width: 210px;
+    padding: 95px 15px;
+    border: 1px solid #000;
+}
+.container_4 span{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 32px 36px 0 12px;
+}
+.container_4 h5{
+    margin: 32px 0 20px;
+    font-size: 24px;
+    line-height: 24px;
+}
+.container_4 p{
+    font-size: 18px;
+}
