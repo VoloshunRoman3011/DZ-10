@@ -220,4 +220,9 @@ input{
     display: inline-block;
     border-radius: 20px;
 }
-
+.owl-nav .owl-prev, .owl-nav .owl-next{
+    background: red !important;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
