@@ -15,8 +15,18 @@
     <link rel="stylesheet" href="css/main007.css">
 </head>
 <body>
-<div id="dialog" title="Basic dialog">
-    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+<div id="dialog" title="FORGOT YOUR PASSWORD?">
+    <form action="" method="post">
+        <div class="mw-750px pad_g-86px">
+            <label class="label" for="Prénom">ENTER YOUR EMAIL</label>
+            <input id="Prénom" type="text" name="bla bla">
+        </div>
+        <div class="mw-750px pad_g-112px">
+            <button class="XZ b-c_bt" type="reset">RESET PASSWORD</button>
+            <p class="mg">OR</p>
+            <a href="#" class="XZ"><i class="fab fa-facebook-f"></i>Log In Using Facebook</a>
+        </div>
+    </form>
 </div>
 
 
@@ -193,31 +203,31 @@
 
 
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<!--<script>-->
-<!--    $( function() {-->
-<!--        $( "#accordion" ).accordion();-->
-<!--    } );-->
-<!--</script>-->
+<script>
+    $( function() {
+        $( "#accordion" ).accordion();
+    } );
+</script>
 
-<!--<script>-->
-<!--    $( function() {-->
-<!--        $( "#dialog" ).dialog({-->
-<!--            autoOpen: false,-->
-<!--            show: {-->
-<!--                effect: "blind",-->
-<!--                duration: 1000-->
-<!--            },-->
-<!--            hide: {-->
-<!--                effect: "explode",-->
-<!--                duration: 1000-->
-<!--            }-->
-<!--        });-->
+<script>
+    $( function() {
+        $( "#dialog" ).dialog({
+            autoOpen: false,
+            show: {
+                effect: "blind",
+                duration: 1000
+            },
+            hide: {
+                effect: "explode",
+                duration: 1000
+            }
+        });
 
-<!--        $( "#opener" ).on( "click", function() {-->
-<!--            $( "#dialog" ).dialog( "open" );-->
-<!--        });-->
-<!--    } );-->
-<!--</script>-->
+        $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+        });
+    } );
+</script>
     <script src="js/owl.carousel.min.js"></script>
 
 <script src="js/scripts.js"></script>
